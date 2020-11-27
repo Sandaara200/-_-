@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+.main-block {
+	background-color: #3a5785;
+	height: 10800px;
+}
+
+.comfortaa {
+	font-family: comfortaa;
+}
+
+.header {
+	height: 95px;
+	padding-top: 5px;
+	background-color: #182438;
+	color: white;
+	font-size: 20px;
+}
+
+.manga-block {
+	background-color: #5783c9;
+	width: 1900px;
+	height: 190px;
+	font-family: comfortaa;
+	font-size: 40px;
+	padding-top: 10px;
+	padding-left: 100px;
+}
+
+.manga-block-img {
+	background-color: #5783c9;
+	width: 1900px;
+	height: 590px;
+	font-family: comfortaa;
+	font-size: 40px;
+	padding-top: 10px;
+	padding-left: 100px;
+}
+
+.manga-img {
+	height: 300px;
+}
+
+.m-left-200 {
+	margin-left: 200px;
+}
+
+.buttons {
+	background-color: #44873d;
+	width: 150px;
+	height: 50px;
+	font-family: comfortaa;
+	border: #1f3d1c solid 1px;
+	border-radius: 10px;
+	transition: 1s;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.ranobe-block {
+	background-color: #5783c9;
+	width: 1900px;
+	height: 190px;
+	font-family: comfortaa;
+	font-size: 40px;
+	padding-top: 10px;
+	padding-left: 100px;
+	margin-top: 200px;
+}
+
+.ranobe-img {
+	height: 700px;
+}
+
+.ranobe-left {
+	margin-left: 400px;
+	margin-top: 200px;
+}
+
+.characters-right {
+	margin-top: 200px;
+	height: 700px;
+	margin-left: 200px;
+}
+
+.ranobe-right {
+	margin-left: 200px;
+	margin-top: 200px;
+}
+
+
+.characters-left {
+	margin-top: 200px;
+	height: 700px;
+	margin-left: 300px;
+}
+
+.ranobe-text {
+	text-align: center;
+	color: white;
+	margin-top: 50px;
+}
+
+.block-img {
+	background-color: #6457c9;
+	background: black;
+  	background: linear-gradient(to top, #375482, #5783c9);
+  	width: 2000px;
+}
+
+.border-bottom {
+	border-bottom: lightgrey solid 5px;
+}
+
+.block-back {
+	width: 740px;
+	color: white;
+	padding-left: 40px;
+	text-decoration: none;
+}
+
+.text-back {
+	color: white;
+	text-decoration: none;
+}
+
+.m-auto {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text-align {
+	text-align: center;
+}
+
+.width-1900 {
+	width: 1900px;
+}
+
+.width-2000 {
+	width: 2000px;
+}
+
+.buttons:hover {
+	width: 200px;
+	height: 60px;
+	background-color: #bdffdc;
+	font-weight: 900;
+	color: lightgrey;
+	border: #739985 solid 1px;
+}
+

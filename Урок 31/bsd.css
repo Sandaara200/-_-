@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+.main-block {
+	background-color: #1a1a1a;
+	height: 5500px;
+}
+
+.height-65 {
+	height: 65px;
+}
+
+.bg-dark {
+	background-color: black;
+}
+
+.links {
+	font-family: comfortaa;
+	margin-left: 100px;
+	color: white;
+	transition: 1s;
+	text-decoration: none;
+}
+
+.p-left {
+	padding-left: 400px;
+}
+
+.p-top {
+	padding-top: 35px
+}
+
+.bg-dazai {
+	background-image: url(dazai.jpg);
+	background-size: 100% 100%;
+}
+
+.block-dazai {
+	height: 1050px;
+	width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	border-radius: 20px;
+}
+
+.dazaitext1 {
+	font-family: comfortaa;
+}
+
+.m-top {
+	margin-top: 480px;
+}
+
+.m-left {
+	margin-left: 85px
+}
+
+.d-flex {
+	display: flex;
+}
+
+.dazaitext2 {
+	font-family: comfortaa;
+	margin-left: 750px;
+}
+
+.m-top-23 {
+	margin-top: 288px
+}
+
+.abillity-block-dazai {
+	width: 200px;
+	height: 300px;
+	border: solid black 5px;
+	background-color: white;
+	margin-left: 700px;
+	margin-top: 200px;
+}
+
+.comfortaa {
+	font-family: comfortaa;
+}
+
+.m-left-30 {
+	margin-left: 30px
+}
+
+.m-left-40 {
+	margin-left: 40px
+}
+
+.m-left-50 {
+	margin-left: 50px
+}
+
+.m-top-30 {
+	margin-top: 30px
+}
+
+.m-top-40 {
+	margin-top: 40px
+}
+
+.logo-block {
+  	background: black;
+  	background: linear-gradient(to top, #bf0d00, #4d0500);
+  	padding: 10px;
+  	height: 210px;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	padding-left: 200px;
+	border-radius: 20px;
+ }
+
+.atsushi-text-block {
+	font-family: comfortaa;
+	color: black;
+	width: 800px;
+	height: 800px;
+	background-color: white;
+	margin-left: 100px;
+	border-radius: 200px;
+	margin-top: 100px;
+	background: black; /* Для старых браузров */
+  	background: linear-gradient(to top, yellow, #80245b);
+}
+
+.m-top-100 {
+	margin-top: 100px;
+}
+
+.seasons-film {
+	background-color: grey;
+	width: 1900px;
+	height: 190px;
+	font-family: comfortaa;
+	font-size: 40px;
+	padding-top: 10px;
+	padding-left: 100px;
+	border-bottom: lightgrey solid 5px;
+}
+
+.seasons-img {
+	background-color: grey;
+	width: 1900px;
+	height: 590px;
+	font-family: comfortaa;
+	font-size: 40px;
+	padding-top: 10px;
+	padding-left: 100px;
+}
+
+.season-1 {
+	height: 300px;
+}
+
+.season-23 {
+	height: 300px;
+	margin-left: 200px;
+}
+
+.buttons {
+	background-color: #44873d;
+	width: 150px;
+	height: 50px;
+	font-family: comfortaa;
+	border: #1f3d1c solid 1px;
+	border-radius: 10px;
+	transition: 1s;
+}
+
+.m-left-200 {
+	margin-left: 200px;
+}
+
+.abillity-block-atsushi {
+	width: 200px;
+	height: 300px;
+	border: solid black 5px;
+	background-color: white;
+	margin-top: 600px;
+}
+
+.m-left-60 {
+	margin-left: 60px;
+}
+
+.ranpo-text-block {
+	font-family: comfortaa;
+	color: black;
+	width: 300px;
+	height: 300px;
+	background-color: white;
+	border-radius: 100px;
+	margin-top: 100px;
+	background: black; /* Для старых браузров */
+  	background: linear-gradient(to top, #57c290, #306b50);
+}
+
+.abillity-block-ranpo {
+	width: 200px;
+	height: 300px;
+	border: solid black 5px;
+	background-color: white;
+	margin-top: 600px;
+	margin-left: 300px;
+}
+
+.linkcolor {
+	color: #faff96;
+	text-decoration: none;
+}
+
+.m-top-50 {
+	margin-top: 50px;
+}
+
+.m-auto {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text-align {
+	text-align: center;
+}
+
+.width-1900 {
+	width: 1900px;
+}
+
+.buttons:hover {
+	width: 200px;
+	height: 70px;
+	background-color: #bdffdc;
+	font-weight: 900;
+	color: lightgrey;
+	border: #739985 solid 1px;
+}
+
+.links:hover {
+	color: #bdffdc;
+	font-weight: 900;
+	text-decoration-line: underline;
+}
