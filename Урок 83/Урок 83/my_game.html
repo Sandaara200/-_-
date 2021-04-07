@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@900&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+		.bg_main {
+			width: 1920px;
+			height: 937px;
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			background-image: url(https://cdn.discordapp.com/attachments/826090897362911256/827127547837022249/bg.jfif);
+			background-size: 100% 100%;
+			display: flex;
+		}
+
+		.box_main {
+			width: 300px; 
+			height: 350px;
+			margin-top: 473px;
+			border-radius: 10px;
+			text-align: center;
+		}
+
+		.img_main {
+			width: 260px; 
+			margin-top: 20px;
+			border-radius: 10px;
+		}
+
+		.bg_bsd {
+			width: 1920px;
+			height: 937px;
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			background-image: url(https://static.zerochan.net/Bungou.Stray.Dogs.full.2918756.jpg);
+			background-size: 100% 100%;
+		}
+
+		.box_bsd {
+			position: absolute;
+			background-size: 100% 100%
+		}
+
+		.score_box_bsd {
+			width: 300px; 
+			height: 95px; 
+			background-color: #7d614c; 
+			position: absolute; 
+			left: 0px; 
+			top: 0px; 
+			border-radius: 10px; 
+			padding-left: 100px; 
+			font-family: Noto Serif JP; 
+			padding-top: 5px;
+		}
+
+		.bg_neverland {
+			width: 1920px;
+			height: 937px;
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			background-image: url(https://bateszi.me/wp-content/uploads/2019/01/the-promised-neverland-anime-episode-1-image-0677.jpg);
+			background-size: 100% 100%;
+		}
+
+		.box_neverland {
+			width: 100px;
+			height: 100px;
+			margin-left: 50px;
+			background-size: 100% 100%;
+			border-radius: 10px;
+			transition: 1s;
+		}
+
+		.header_neverland {
+			height: 100px;
+			width: 1920px;
+			background-color: #9377a6;
+			font-family: witka;
+			position: absolute;
+			text-align: center;
+			color: #520073;
+		}
+
+		.row_neverland {
+			width: 750px;
+			height: 100px;
+			margin-top: 50px; 
+			margin-left: auto;
+			margin-right: auto;
+			display: flex;
+		}
+
+		.box_neverland:hover {
+			width: 120px;
+			height: 120px;
+			margin-left: 30px;
+		}
+
+		.box_ronpa {
+			width: 100px;
+			height: 75px;
+			border: 1px white solid;
+			text-align: center;
+		}
+
+		.main_ronpa {
+			width: 1920px;
+			height: 1900px;
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			background-image: url(https://cdn.discordapp.com/attachments/826090897362911256/827110947041837077/504b267738407356.png);
+			background-size: 100% 100%;
+			font-family: 'Press Start 2P', cursive;
+		}
+
+		.bg_ronpa {
+			width: 800px;
+			height: 700px;
+			background-color: grey;
+			opacity: 0.5;
+			margin-left: auto;
+			margin-right: auto;
+			border-radius: 10px;
+			margin-top: 100px;
+		}
+
+		.header_ronpa {
+			width: 1920px;
+			height: 100px;
+			background: linear-gradient(45deg, #a89c4c, #a843a7);
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			text-align: center;
+		}
+
+		.row_ronpa {
+			width: 714px;
+			height: 75px;
+			display: flex;
+			background-color: red;
+			position: absolute;
+			left: 605px;
+		}
+
+		.header_bottom {
+			width: 1920px;
+			height: 90px;
+			background: linear-gradient(45deg, #355b94, #a843a7);
+			position: absolute;
+			left: 0px;
+			top: 1800px;
+			text-align: center;
+			padding-top: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="bg_main">
+		<div class="box_main razdel1" style="margin-left: 200px; font-family: Noto Serif JP; background-color: #383128">
+			<img src="https://cdn.discordapp.com/attachments/826090897362911256/827136044699877426/Bungou.png" class="img_main">
+			<h2>
+				Bungou Stray Dogs: 
+			</h2>
+			<h2>
+				Hidden Object
+			</h2>
+		</div>
+		<div class="box_main razdel2" style="margin-left: 350px; font-family: witka; background-color: #21282a">
+			<img src="https://cdn.discordapp.com/attachments/826090897362911256/827136142818279454/the-promised-neverland-anime-episode-1-image-0677.png" class="img_main">
+			<h2>
+				Promised Neverland: 
+			</h2>
+			<h2>
+				Memory
+			</h2>
+		</div>
+		<div class="box_main danganronpa" style="margin-left: 350px; font-family: 'Press Start 2P', cursive; background-color: #2a2823">
+			<img src="https://cdn.discordapp.com/attachments/826090897362911256/827110947041837077/504b267738407356.png" class="img_main">
+			<h4>
+				Danganronpa: 
+			</h4>
+			<h4>
+				Find Treasure
+			</h4>
+		</div>
+	</div>
+
+
+
+	<!-- bsd -->
+	<div class="main_bsd" style="display: none;">
+		<div class="bg_bsd">
+			
+		</div>
+		<div class="score_box_bsd">
+			<h1>
+				Score: <span class="score_bsd"></span>/5
+			</h1>
+		</div>
+		<div class="box_bsd" style="left: 200px; top: 665px; width: 90px; height: 160px; background-image: url(https://cdn.shopify.com/s/files/1/0272/6759/6387/products/ramune_sticker_2_large.png?v=1578458112);">
+					
+		</div>
+		<div class="box_bsd" style="left: 750px; top: 500px; width: 35px; height: 50px; background-image: url(https://static.wikia.nocookie.net/typemoon/images/2/21/MrCellPhone.png/revision/latest?cb=20150606184510);">
+					
+		</div>
+		<div class="box_bsd" style="left: 420px; top: 750px; width: 100px; height: 100px; background-image: url(https://i.pinimg.com/originals/2c/f1/65/2cf165bfdaf8daffd7a3338eda12c88b.png);" class="box_bsd">
+					
+		</div>
+		<div class="box_bsd" style="left: 950px; top: 680px; width: 70px; height: 70px; background-image: url(https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/32908/boiled-rice-food-clipart-md.png);">
+					
+		</div>
+		<div class="box_bsd" style="left: 1400px; top: 570px; width: 200px; height: 200px; background-image: url(https://d3s2ss25isw27q.cloudfront.net/wp-content/uploads/sites/3/2017/03/chB_2747-1-300x300.png);">
+					
+		</div>
+	</div>
+
+
+
+	<!-- neverland -->
+	<div class="bg_neverland" style="display: none;">
+		<div class="header_neverland">
+			<h1 class="h1_neverland">
+				You have only 15 seconds to remember all cards.
+			</h1>
+		</div>
+
+		<div class="row_neverland" style="margin-top: 150px;">
+			<!-- Anna --> 
+			<div class="box_neverland anna" style="background-image: url(https://pm1.narvii.com/7869/fa8283b338a6e0854736c6182add305a7ad42637r1-312-332v2_128.jpg);">
+				
+			</div>
+			<!-- Norman -->
+			<div class="box_neverland minerva" style="background-image: url(https://i.pinimg.com/474x/8b/e4/3d/8be43d8a660d1ee459752ca0c6fe4efb.jpg);">
+				
+			</div>
+			<!-- Conny -->
+			<div class="box_neverland conny" style="background-image: url(https://64.media.tumblr.com/3a62d45678e02b4f4edaea9d6bbabe80/a4295b26d509e773-6c/s1280x1920/dd336ce0068a7749d58aaf4349683e72cb0e77d2.png);">
+				
+			</div>
+			<!-- Emma -->
+			<div class="box_neverland emma" style="background-image: url(https://i.pinimg.com/564x/8e/17/d0/8e17d0ffc281c345ae1428e14600596d.jpg);">
+				
+			</div>
+			<!-- Phil -->
+			<div class="box_neverland phil" style="background-image: url(https://i.pinimg.com/736x/ad/40/e5/ad40e5f34cf87769916dedb7f2013241.jpg);">
+				
+			</div>
+		</div>
+
+		<div class="row_neverland">
+			<!-- Gilda -->
+			<div class="box_neverland gilda" style="background-image: url(https://i.pinimg.com/originals/53/92/7f/53927fee9c0c83852481ad78d2d3ce40.jpg);">
+				
+			</div>
+			<!-- Anna --> 
+			<div class="box_neverland anna" style="background-image: url(https://pm1.narvii.com/7869/fa8283b338a6e0854736c6182add305a7ad42637r1-312-332v2_128.jpg);">
+				
+			</div>
+			<!-- Ray -->
+			<div class="box_neverland ray" style="background-image: url(https://i.pinimg.com/736x/9d/a8/61/9da8610b13633a307aa42805b73c2c87.jpg);">
+				
+			</div>
+			<!-- Don -->
+			<div class="box_neverland don" style="background-image: url(https://i.pinimg.com/originals/d1/7f/29/d17f29776fac30bc4f159a6efdfda05b.jpg);">
+				
+			</div>
+			<!-- Isabella -->
+			<div class="box_neverland isabella" style="background-image: url(https://i1.sndcdn.com/artworks-000511962897-6onke8-t500x500.jpg);">
+				
+			</div>
+		</div>
+
+		<div class="row_neverland">
+			<!-- Conny -->
+			<div class="box_neverland conny" style="background-image: url(https://64.media.tumblr.com/3a62d45678e02b4f4edaea9d6bbabe80/a4295b26d509e773-6c/s1280x1920/dd336ce0068a7749d58aaf4349683e72cb0e77d2.png);">
+				
+			</div>
+			<!-- Minerva -->
+			<div class="box_neverland minerva" style="background-image: url(https://pbs.twimg.com/profile_images/1064822138329341952/CajFlemm.jpg);">
+				
+			</div>
+			<!-- Don -->
+			<div class="box_neverland don" style="background-image: url(https://i.pinimg.com/originals/d1/7f/29/d17f29776fac30bc4f159a6efdfda05b.jpg);">
+				
+			</div>
+			<!-- Gilda -->
+			<div class="box_neverland gilda" style="background-image: url(https://i.pinimg.com/originals/53/92/7f/53927fee9c0c83852481ad78d2d3ce40.jpg);">
+				
+			</div>
+			<!-- Emma -->
+			<div class="box_neverland emma" style="background-image: url(https://i.pinimg.com/564x/8e/17/d0/8e17d0ffc281c345ae1428e14600596d.jpg);">
+				
+			</div>
+		</div>
+
+		<div class="row_neverland">
+			<!-- Minerva -->
+			<div class="box_neverland minerva" style="background-image: url(https://pbs.twimg.com/profile_images/1064822138329341952/CajFlemm.jpg);">
+				
+			</div>
+			<!-- Norman -->
+			<div class="box_neverland norman" style="background-image: url(https://i.pinimg.com/474x/8b/e4/3d/8be43d8a660d1ee459752ca0c6fe4efb.jpg);">
+				
+			</div>
+			<!-- Isabella -->
+			<div class="box_neverland isabella" style="background-image: url(https://i1.sndcdn.com/artworks-000511962897-6onke8-t500x500.jpg);">
+				
+			</div>
+			<!-- Phil -->
+			<div class="box_neverland phil" style="background-image: url(https://i.pinimg.com/736x/ad/40/e5/ad40e5f34cf87769916dedb7f2013241.jpg);">
+				
+			</div>
+			<!-- Ray -->
+			<div class="box_neverland ray" style="background-image: url(https://i.pinimg.com/736x/9d/a8/61/9da8610b13633a307aa42805b73c2c87.jpg);">
+				
+			</div>
+		</div>
+		<h1 class="score_h1" style="margin-top: 177px; margin-left: 30px; color: #240b15; font-family: Noto Serif JP; display: none;">
+			Score: <span class="score_neverland"></span>
+		</h1>
+	</div>
+
+
+
+	<!-- danganronpa -->
+	<div class="main_ronpa" style="display: none;">
+		<div class="header_ronpa">
+			<h1 class="h1_ronpa">
+				Collect 10 points
+			</h1>
+			<h3 class="h3_score_rnopa">
+				Score: <span class="score_ronpa"></span>
+			</h3>
+		</div>
+		<div class="bg_ronpa">
+			
+		</div>
+		<div class="row_ronpa" style="top: 150px; background: linear-gradient(45deg, #355b94, #a843a7);">
+			<div class="box_ronpa" style="background-color: #a89c4c;">
+
+			</div>
+			<div class="box_ronpa" style="background-color: #a89c4c;">
+				<h1>
+					1
+				</h1>
+			</div>
+			<div class="box_ronpa" style="background-color: #a89c4c;">
+				<h1>
+					2
+				</h1>
+			</div>
+			<div class="box_ronpa" style="background-color: #a89c4c;">
+				<h1>
+					3
+				</h1>
+			</div>
+			<div class="box_ronpa" style="background-color: #a89c4c;">
+				<h1>
+					4
+				</h1>
+			</div>
+			<div class="box_ronpa" style="background-color: #a89c4c;">
+				<h1>
+					5
+				</h1>
+			</div>
+			<div class="box_ronpa" style="background-color: #a89c4c;">
+				<h1>
+					6
+				</h1>
+			</div>
+		</div>
+		<div class="row_ronpa" style="top: 225px; background: linear-gradient(45deg, #355b94, #a843a7);">
+			<div class="box_ronpa" style="background-color: #a89c4c;">
+				<h1>
+					A
+				</h1>
+			</div>
+			<div class="box_ronpa bang">
+				
+			</div>
+			<div class="box_ronpa coin">
+				
+			</div>
+			<div class="box_ronpa meme">
+				
+			</div>
+			<div class="box_ronpa treasure">
+				
+			</div>
+			<div class="box_ronpa meme">
+				
+			</div>
+			<div class="box_ronpa coin">
+				
+			</div>
+		</div>
+		<div class="row_ronpa" style="top: 300px; background: linear-gradient(45deg, #355b94, #a843a7);">
+			<div class="box_ronpa" style="background-color: #a89c4c;">
+				<h1>
+					B
+				</h1>
+			</div>
+			<div class="box_ronpa meme">
+				
+			</div>
+			<div class="box_ronpa meme">
+				
+			</div>
+			<div class="box_ronpa coin">
+				
+			</div>
+			<div class="box_ronpa meme">
+				
+			</div>
+			<div class="box_ronpa bang">
+				
+			</div>
+			<div class="box_ronpa treasure">
+				
+			</div>
+		</div>
+		<div class="row_ronpa" style="top: 375px; background: linear-gradient(45deg, #355b94, #a843a7);">
+			<div class="box_ronpa" style="background-color: #a89c4c;">
+				<h1>
+					C
+				</h1>
+			</div>
+			<div class="box_ronpa bang">
+				
+			</div>
+			<div class="box_ronpa treasure">
+				
+			</div>
+			<div class="box_ronpa meme">
+				
+			</div>
+			<div class="box_ronpa coin">
+				
+			</div>
+			<div class="box_ronpa meme">
+				
+			</div>
+			<div class="box_ronpa meme">
+				
+			</div>
+		</div>
+		<div class="row_ronpa" style="top: 450px; background: linear-gradient(45deg, #355b94, #a843a7);">
+			<div class="box_ronpa" style="background-color: #a89c4c;">
+				<h1>
+					D
+				</h1>
+			</div>
+			<div class="box_ronpa coin">
+				
+			</div>
+			<div class="box_ronpa meme">
+				
+			</div>
+			<div class="box_ronpa treasure">
+				
+			</div>
+			<div class="box_ronpa meme">
+				
+			</div>
+			<div class="box_ronpa bang">
+				
+			</div>
+			<div class="box_ronpa meme">
+				
+			</div>
+		</div>
+		<div class="row_ronpa" style="top: 525px; background: linear-gradient(45deg, #355b94, #a843a7);">
+			<div class="box_ronpa" style="background-color: #a89c4c;">
+				<h1>
+					E
+				</h1>
+			</div>
+			<div class="box_ronpa treasure">
+				
+			</div>
+			<div class="box_ronpa coin">
+				
+			</div>
+			<div class="box_ronpa meme">
+				
+			</div>
+			<div class="box_ronpa bang">
+				
+			</div>
+			<div class="box_ronpa meme">
+				
+			</div>
+			<div class="box_ronpa meme">
+				
+			</div>
+		</div>
+		<div class="row_ronpa" style="top: 600px; background: linear-gradient(45deg, #355b94, #a843a7);">
+			<div class="box_ronpa" style="background-color: #a89c4c;">
+				<h1>
+					F
+				</h1>
+			</div>
+			<div class="box_ronpa meme">
+				
+			</div>
+			<div class="box_ronpa treasure">
+				
+			</div>
+			<div class="box_ronpa meme">
+				
+			</div>
+			<div class="box_ronpa coin">
+				
+			</div>
+			<div class="box_ronpa bang">
+				
+			</div>
+			<div class="box_ronpa meme">
+				
+			</div>
+		</div>
+		<div class="header_bottom">
+			<h1>
+				Beautiful background, huh?
+			</h1>
+		</div>
+	</div>
+</body>
+</html>
+
+<script type="text/javascript">
+	//bsd
+	document.querySelector(".razdel1").onclick = function() {
+		document.querySelector(".bg_main").style.display = "none";
+		document.querySelector(".main_bsd").style.display = "block";
+	}
+
+	let box_bsd_array = document.querySelectorAll(".box_bsd")
+	let score_bsd = 0;
+	document.querySelector(".score_bsd").innerHTML = score_bsd;
+
+	for(let x = 0; x < 5; x++) {
+		box_bsd_array[x].onclick = function() {
+			box_bsd_array[x].style.display = "none";
+			score_bsd++;
+			document.querySelector(".score_bsd").innerHTML = score_bsd;
+
+			if(score_bsd == 5) {
+				alert("Ты нашёл все предметы!");
+				document.querySelector(".main_bsd").style.display = "none";
+				document.querySelector(".bg_main").style.display = "block";
+				document.querySelector(".bg_main").style.display = "flex";
+			}
+		}
+	}
+
+	document.querySelector(".bg_bsd").onclick = function() {
+		alert("Не тот предмет!");
+	}
+
+
+
+
+	//danganronpa 
+	document.querySelector(".danganronpa").onclick = function() {
+		document.querySelector(".bg_main").style.display = "none";
+		document.querySelector(".main_ronpa").style.display = "block";
+	}
+
+	let score_ronpa = 0;
+	document.querySelector(".score_ronpa").innerHTML = score_ronpa;
+
+	let treasure = document.querySelectorAll(".treasure");
+	let coin = document.querySelectorAll(".coin");
+	let bang = document.querySelectorAll(".bang");
+	let meme = document.querySelectorAll(".meme");
+
+	for(let x = 0; x < 6; x++) {
+		treasure[x].onclick = function() {
+			treasure[x].style.backgroundSize = "100% 100%";
+			treasure[x].style.backgroundImage = "url(https://i.pinimg.com/originals/aa/60/7d/aa607d0c2667f12842e2e0d87b3ce40e.png)";
+			score_ronpa++;
+			document.querySelector(".score_ronpa").innerHTML = score_ronpa;
+			if(score_ronpa == 6) {
+				alert("You won!");
+				document.querySelector(".main_ronpa").style.display = "none";
+				document.querySelector(".bg_main").style.display = "block";
+				document.querySelector(".bg_main").style.display = "flex";
+			}
+		}
+	}
+
+	for(let x = 0; x < 7; x++) {
+		coin[x].onclick = function() {
+			coin[x].style.backgroundSize = "100% 100%";
+			coin[x].style.backgroundImage = "url(https://cdn.discordapp.com/attachments/826090897362911256/827133024411582495/tumblr_plejoiS7RW1wsnl1do3_1280_3.png)";
+			score_ronpa++;
+			document.querySelector(".score_ronpa").innerHTML = score_ronpa;
+			if(score_ronpa == 6) {
+				alert("You won!");
+				document.querySelector(".main_ronpa").style.display = "none";
+				document.querySelector(".bg_main").style.display = "block";
+				document.querySelector(".bg_main").style.display = "flex";
+			}
+		}
+	}
+
+	for(let x = 0; x < 6; x++) {
+		bang[x].onclick = function() {
+			bang[x].style.backgroundSize = "100% 100%";
+			bang[x].style.backgroundImage = "url(https://www.pngkey.com/png/full/849-8499091_dangan-ronpa-danganronpa-junko-enoshima-badass-monokuma-junko.png)";
+			score_ronpa--;
+			document.querySelector(".score_ronpa").innerHTML = score_ronpa;
+		}
+	}
+
+	for(let x = 0; x < 17; x++) {
+		meme[x].onclick = function() {
+			meme[x].style.backgroundSize = "100% 100%";
+			meme[x].style.backgroundImage = "url(https://64.media.tumblr.com/51c7a2db57f68f849c88c9dd36536eca/tumblr_pan51aIX4P1we9yjao3_1280.png)";
+		}
+	}
+
+
+	//neverland 
+	document.querySelector(".razdel2").onclick = function() {
+		document.querySelector(".bg_main").style.display = "none";
+		document.querySelector(".bg_neverland").style.display = "block";
+	}
+
+	let anna = document.querySelectorAll(".anna");
+	let norman = document.querySelectorAll(".norman");
+	let conny = document.querySelectorAll(".conny");
+	let emma = document.querySelectorAll(".emma");
+	let phil = document.querySelectorAll(".phil");
+	let gilda = document.querySelectorAll(".gilda");
+	let ray = document.querySelectorAll(".ray");
+	let don = document.querySelectorAll(".don");
+	let isabella = document.querySelectorAll(".isabella");
+	let minerva = document.querySelectorAll(".minerva");
+
+	let score_neverland = 0;
+	document.querySelector(".score_neverland").innerHTML = score_neverland;
+
+	let box_neverland = document.querySelectorAll(".box_neverland");
+
+	function black() {
+		for(let x = 0; x < 20; x++) {
+			box_neverland[x].style.backgroundImage = "url()";
+			box_neverland[x].style.backgroundColor = "black";
+			document.querySelector(".h1_neverland").innerHTML = "Time!";
+		}
+	}
+
+	function h1() {
+		document.querySelector(".h1_neverland").innerHTML = "Find Emma (redhead girl)";
+		document.querySelector(".score_h1").style.display = "block";
+	}
+
+	setTimeout(black, 15000);
+	setTimeout(h1, 16000);
+	
+	for(let x = 0; x < 2; x++) {
+		emma[x].onclick = function() {
+			score_neverland++;
+			document.querySelector(".score_neverland").innerHTML = score_neverland;
+			emma[x].style.backgroundImage = "url(https://i.pinimg.com/564x/8e/17/d0/8e17d0ffc281c345ae1428e14600596d.jpg)";
+			if(score_neverland == 2) {
+				alert("You won!");
+				document.querySelector(".bg_neverland").style.display = "none";
+				document.querySelector(".bg_main").style.display = "block";
+				document.querySelector(".bg_main").style.display = "flex";
+			}
+			emma[x].onclick = function() {
+
+			}
+		}
+	}
+
+	for(let x = 0; x < 2; x++) {
+		anna[x].onclick = function() {
+			anna[x].style.backgroundImage = "url(https://pm1.narvii.com/7869/fa8283b338a6e0854736c6182add305a7ad42637r1-312-332v2_128.jpg)";
+			alert("It's not Emma!");
+			anna[x].style.backgroundImage = "url()";
+		}
+	}
+
+	for(let x = 0; x < 2; x++) {
+		norman[x].onclick = function() {
+			norman[x].style.backgroundImage = "url(https://i.pinimg.com/474x/8b/e4/3d/8be43d8a660d1ee459752ca0c6fe4efb.jpg)";
+			alert("It's not Emma!");
+			norman[x].style.backgroundImage = "url()";
+		}
+	}
+
+	for(let x = 0; x < 2; x++) {
+		conny[x].onclick = function() {
+			conny[x].style.backgroundImage = "urlhttps://64.media.tumblr.com/3a62d45678e02b4f4edaea9d6bbabe80/a4295b26d509e773-6c/s1280x1920/dd336ce0068a7749d58aaf4349683e72cb0e77d2.png)";
+			alert("It's not Emma!");
+			conny[x].style.backgroundImage = "url()";
+		}
+	}
+
+	for(let x = 0; x < 2; x++) {
+		phil[x].onclick = function() {
+			phil[x].style.backgroundImage = "url(https://i.pinimg.com/736x/ad/40/e5/ad40e5f34cf87769916dedb7f2013241.jpg)";
+			alert("It's not Emma!");
+			phil[x].style.backgroundImage = "url()";
+		}
+	}
+
+	for(let x = 0; x < 2; x++) {
+		gilda[x].onclick = function() {
+			gilda[x].style.backgroundImage = "url(https://i.pinimg.com/originals/53/92/7f/53927fee9c0c83852481ad78d2d3ce40.jpg)";
+			alert("It's not Emma!");
+			gilda[x].style.backgroundImage = "url()";
+		}
+	}
+
+	for(let x = 0; x < 2; x++) {
+		ray[x].onclick = function() {
+			ray[x].style.backgroundImage = "url(https://i.pinimg.com/736x/9d/a8/61/9da8610b13633a307aa42805b73c2c87.jpg)";
+			alert("It's not Emma!");
+			ray[x].style.backgroundImage = "url()";
+		}
+	}
+
+	for(let x = 0; x < 2; x++) {
+		don[x].onclick = function() {
+			don[x].style.backgroundImage = "url(https://i.pinimg.com/originals/d1/7f/29/d17f29776fac30bc4f159a6efdfda05b.jpg)";
+			alert("It's not Emma!");
+			don[x].style.backgroundImage = "url()";
+		}
+	}
+
+	for(let x = 0; x < 2; x++) {
+		isabella[x].onclick = function() {
+			isabella[x].style.backgroundImage = "url(https://i1.sndcdn.com/artworks-000511962897-6onke8-t500x500.jpg)";
+			alert("It's not Emma!");
+			isabella[x].style.backgroundImage = "url()";
+		}
+	}
+
+	for(let x = 0; x < 2; x++) {
+		minerva[x].onclick = function() {
+			minerva[x].style.backgroundImage = "url(https://pbs.twimg.com/profile_images/1064822138329341952/CajFlemm.jpg)";
+			alert("It's not Emma!");
+			minerva[x].style.backgroundImage = "url()";
+		}
+	}
+</script>
